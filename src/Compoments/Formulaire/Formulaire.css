@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins','sans serif';
+}
+.Footer-form{
+   margin-top: 150px; 
+}
+.rm-form{
+    font-size: 40px;
+    margin-left: 530px;
+    margin-top: 20px;
+}
+form{
+    border: 2px solid black;
+    padding: 10px 20px;
+    width: 30%;
+    height: 250px;
+    margin-left: 530px;
+    margin-top: 50px;
+    box-shadow: 3px 3px 3px black;
+}
+input{
+    font-size: 30px;
+    margin: 20px;
+}
+input:hover{
+    border: 2px solid blue;
+}
+#button-card{
+    border: 2px solid white;
+    height: 50px;
+    width: 150px;
+    border-radius: 8px;
+    background-color: green;
+}

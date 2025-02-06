@@ -1,0 +1,141 @@
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+/* Global footer styles */
+.footer {
+  background: linear-gradient(135deg, rgba(11, 10, 10, 0.84), rgba(15, 15, 15, 0.95));
+  backdrop-filter: blur(10px);
+  color: #ffffff;
+  padding: 30px 20px;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer container */
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: auto;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Footer logo */
+.footer-logo {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-logo h2 {
+  font-size: 26px;
+  color: #f39c12;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.footer-logo p {
+  font-size: 14px;
+  color: #bbb;
+  margin-top: 8px;
+  line-height: 1.6;
+}
+
+/* Footer links */
+.footer-links,
+.footer-social {
+  flex: 1;
+  min-width: 200px;
+  text-align: center;
+}
+
+.footer-links h3,
+.footer-social h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #f39c12;
+  text-transform: uppercase;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-links a:hover {
+  color: #f39c12;
+  text-decoration: underline;
+  transform: scale(1.1);
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 22px;
+  transition: transform 0.3s ease, color 0.3s;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+}
+
+.social-icons a:hover {
+  color: #f39c12;
+  background: rgba(243, 156, 18, 0.2);
+  transform: scale(1.2);
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  text-align: center;
+  margin-top: 25px;
+  padding-top: 20px;
+  font-size: 14px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.footer-bottom p {
+  color: white;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .footer-links ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,28 @@
+.clip{
+    margin-top: 90px;
+    padding: 5px 5px;
+  }
+  .text{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.402);
+    margin-left: 380px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .video{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .video h1{
+    color:rgb(7, 7, 75);
+  }
+  
+  iframe{
+  border: 2px solid white;
+  width: 20%;
+  height: 200px;
+  border-radius: 10px;
+    background-color: rgb(6, 6, 59);
+    box-shadow: rgba(17, 12, 46, 0.354) 0px 48px 100px 0px;
+  }
+  

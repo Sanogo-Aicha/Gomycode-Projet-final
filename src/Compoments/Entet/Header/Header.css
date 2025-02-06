@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.85);
+    padding: 15px 40px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+/* Logo textuel F-Anim */
+.logo-text {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .logo-text .anim {
+    color: #f39c12; /* Couleur dorée pour "Anim" */
+  }
+  .logo-text:hover {
+    color: #f39c12;
+  }
+/* Navigation */
+.nav-links {
+    display: flex;
+    gap: 25px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  

@@ -1,0 +1,75 @@
+/* Conteneur principal */
+.movies-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  .texte-form{
+    margin-left: 300px;
+    margin-top: 20px;
+  }
+  .texte-form h1{
+    color: rgb(20, 20, 44);
+  }
+  .texte-form h2{
+    margin-left: 254px;
+    color: #f39c12;
+  }
+  /* Barre de recherche */
+  .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid #f39c12;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .search-bar button {
+    background: #f39c12;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .search-bar button:hover {
+    background: #e67e22;
+  }
+  
+  /* Grille des films */
+  .movies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Style des cartes (même que RecentMovies) */
+  .movie-card {
+    background: #222;
+    padding: 15px;
+    border-radius: 12px;
+    transition: transform 0.3s;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 5px;
+  }
+  
+
+  
+  /* Liens */
+  .movie-card a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
