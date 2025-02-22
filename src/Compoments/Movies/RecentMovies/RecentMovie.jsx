@@ -1,6 +1,5 @@
 import React from "react";
 import "./RecentMovie.css";
-import { Link } from "react-router-dom";
 
 const movies = [
   {

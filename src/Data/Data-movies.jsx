@@ -23,7 +23,6 @@ var MovieData=[
     {id:4,
         titre:"The Bad Guys 2",
       image:"https://i.ytimg.com/vi/TY1lWh20VSw/maxresdefault.jpg",
-      
       age:6
       ,
       description:"La suite tant attendue des aventures de Judy Hopps et Nick Wilde dans la ville animée de Zootopia."   
@@ -40,8 +39,7 @@ var MovieData=[
       image:"https://image.api.playstation.com/vulcan/ap/rnd/202106/2115/yvl4t3kO54WQ2cn1E5X0Mh2U.png",
       
       age:8,
-      description:"anjiro décide de devenir un tueur de démons pour venger sa famille et guérir sa sœur. Une famille est attaquée par des démons" 
-        
+      description:"anjiro décide de devenir un tueur de démons pour venger sa famille et guérir sa sœur. Une famille est attaquée par des démons"    
     },
     {
       id: 7,
@@ -58,7 +56,7 @@ var MovieData=[
       age: 14,
       description: "Yuji Itadori combat des fléaux démoniaques en devenant l'hôte de Sukuna, le roi des malédictions.",   
     },
-    ,
+    
     {id:9,
       titre:"Sonic Prime ",
     image:"https://th.bing.com/th/id/OIP.aDHSfzvTgth18jETBTDVBAHaJ4?w=140&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7",
