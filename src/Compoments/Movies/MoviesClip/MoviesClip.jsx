@@ -1,6 +1,5 @@
-import React, { Component } from "react";
+import React from "react";
 import "./MoviesClip.css";
-import { Link } from "react-router-dom";
 const MoviesClip = ({ movie }) => {
   const linkTable = movie.PostUrl;
   return (
