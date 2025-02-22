@@ -6,15 +6,14 @@ const MoviesClip = ({ movie }) => {
     <div>
       <div className="clip">
       <div className="text">
-      PASSER UN BON MOMENT      
+      PASSEZ UN BON MOMENT      
         </div>
         <div className="video">
           {linkTable.map((ele) => {
             return (
               <div>
-
                 <div>
-                 <h1>{ele.name}</h1>
+                
                   <iframe
                     width="560"
                     height="315"
@@ -25,6 +24,7 @@ const MoviesClip = ({ movie }) => {
                     referrerpolicy="strict-origin-when-cross-origin"
                     allowfullscreen
                   ></iframe>
+                  <h1>{ele.name}</h1>
                   <div>
                   </div>
                 </div>

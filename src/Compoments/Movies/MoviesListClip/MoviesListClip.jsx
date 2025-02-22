@@ -7,7 +7,7 @@ import Header from '../../Entet/Header/Header';
 function MoviesListClip () {
   let id=useParams().id
   let movies=DataMoviesClip.find((elt)=>{
-    return elt.id=id;
+    return elt.id==id;
   })
     return (
       <>
