@@ -1,11 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Accueil from './Pages/Accueils/Accueil';
 import MovieList from './Compoments/Movies/MoviesListe/MovieListe';
-import Movie from './Compoments/Movies/Movie/Movie';
 import MoviesListClip from './Compoments/Movies/MoviesListClip/MoviesListClip';
-import Header from './Compoments/Entet/Header/Header';
 import About from './Pages/About/About';
 import Formulaire from './Compoments/Formulaire/Formulaire';
 

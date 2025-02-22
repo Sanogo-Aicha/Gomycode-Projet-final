@@ -4,7 +4,6 @@ import './MoviesListClip.css';
 import MoviesClip from '../MoviesClip/MoviesClip';
 import DataMoviesClip from '../../../Data/DataClipMovies';
 import Header from '../../Entet/Header/Header';
-import Footer from '../../Entet/Foother/Foother';
 function MoviesListClip () {
   let id=useParams().id
   let movies=DataMoviesClip.find((elt)=>{

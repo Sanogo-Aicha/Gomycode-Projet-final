@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import "./About.css"
 import Header from '../../Compoments/Entet/Header/Header';
 import Foother from '../../Compoments/Entet/Foother/Foother';
